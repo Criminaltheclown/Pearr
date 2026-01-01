@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monaco Editor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden;
+        }
+        
+        #container {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs/loader.js"></script>
+    <script>
+        require.config({ paths: { vs: 'https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs' } });
+        
+        require(['vs/editor/editor.main'], function () {
+            const editor = monaco.editor.create(document.getElementById('container'), {
+                value: '-- Your code here...\nprint("Hello, World!")',
+                language: 'lua',
+                theme: 'vs-dark',
+                automaticLayout: true,
+                fontSize: 14,
+                fontFamily: 'Consolas, "Courier New", monospace',
+                minimap: {
+                    enabled: true
+                },
+                scrollBeyondLastLine: false,
+                wordWrap: 'on',
+                lineNumbers: 'on',
+                renderLineHighlight: 'all',
+                cursorStyle: 'line',
+                cursorBlinking: 'smooth',
+                cursorSmoothCaretAnimation: true,
+                smoothScrolling: true,
+                formatOnPaste: true,
+                formatOnType: true,
+                tabSize: 4,
+                insertSpaces: true,
+                detectIndentation: false
+            });
+            
+            // Expose editor to window for C# interaction
+            window.monacoEditor = editor;
+            
+            // Listen for messages from C#
+            window.chrome.webview.addEventListener('message', function(event) {
+                const data = event.data;
+                if (data.type === 'setValue') {
+                    editor.setValue(data.value);
+                } else if (data.type === 'getValue') {
+                    window.chrome.webview.postMessage({
+                        type: 'value',
+                        value: editor.getValue()
+                    });
+                } else if (data.type === 'setLanguage') {
+                    monaco.editor.setModelLanguage(editor.getModel(), data.language);
+                }
+            });
+            
+            // Send value changes to C#
+            editor.onDidChangeModelContent(function() {
+                window.chrome.webview.postMessage({
+                    type: 'contentChanged',
+                    value: editor.getValue()
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
