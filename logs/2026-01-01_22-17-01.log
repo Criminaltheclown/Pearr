@@ -1,0 +1,52 @@
+[2026-01-01 22:17:01.108] [Xeno] [trace] Xeno is only maintained by Rizve. If you find any bugs, have any question, or just want to chat email me rizve@xeno.onl or DM me on Discord: .rizve
+[2026-01-01 22:17:01.108] [Xeno] [info] Version: Xeno - v1.3.10
+[2026-01-01 22:17:01.108] [Xeno] [info] Log file: C:\Users\Criminal\Desktop\Pear\Pear\bin\Release\net10.0-windows\logs\2026-01-01_22-17-01.log
+[2026-01-01 22:17:01.110] [Xeno] [debug] Client Checker thread: 0x360557d460
+[2026-01-01 22:17:01.110] [Xeno] [debug] Xeno Caching thread: 0x360557d450
+[2026-01-01 22:17:01.110] [Xeno] [debug] WebSockets Cleaner thread: 0x360557d440
+[2026-01-01 22:17:01.110] [Xeno] [debug] Xeno Server thread: 0x360557d430
+[2026-01-01 22:17:01.111] [Cache] [info] Caching file: C:\Users\Criminal\AppData\Local\Xeno\XENO_CACHE.bin
+[2026-01-01 22:17:01.111] [Cache] [debug] No cache file found at C:\Users\Criminal\AppData\Local\Xeno\XENO_CACHE.bin
+[2026-01-01 22:17:01.111] [Cache] [warning] No valid cache found (Starting new fresh cache)
+[2026-01-01 22:17:01.111] [Cache] [info] Inviting you to our Official Discord server :D https://discord.gg/xe-no
+[2026-01-01 22:17:01.112] [Server] [info] Xeno Server is Live on http://localhost:3110
+[2026-01-01 22:17:01.112] [Server] [info] Visit http://localhost:3110 to view any additional information
+[2026-01-01 22:17:01.133] [Xeno] [info] Creating new RBXClient: 8652
+[2026-01-01 22:17:01.133] [RBXClient] [info] [8652]: Initializing...
+[2026-01-01 22:17:01.134] [RBXClient] [info] [8652]: Version: version-f8f53a67efca4c34
+[2026-01-01 22:17:01.134] [Xeno] [debug] Created RBXClient instance @0x178d9dd8380
+[2026-01-01 22:17:01.134] [Xeno] [info] Successfully created RBXClient: 8652
+[2026-01-01 22:17:01.134] [RBXClient] [trace] [8652]: Attempting to retrieve RBXClient data from endpoint...
+[2026-01-01 22:17:01.352] [RBXClient] [trace] [8652]: Successfully retrieved RBXClient data from endpoint using curl.
+[2026-01-01 22:17:01.356] [RBXClient] [debug] [8652]: Fetching DataModel...
+[2026-01-01 22:17:01.418] [RBXClient] [debug] [8652]: 	String: 0x1a2ca2b4550
+[2026-01-01 22:17:01.418] [RBXClient] [debug] [8652]: 	RenderView: 0x1a2cfbe4000
+[2026-01-01 22:17:01.420] [RBXClient] [debug] [8652]: DataModel (Ugc): 0x1a2c442b638
+[2026-01-01 22:17:01.421] [RBXClient] [debug] [8652]: LocalPlayer: 0x1a2c5faa080
+[2026-01-01 22:17:01.421] [RBXClient] [debug] [Robloxianf2d3s6y8l (8652)]: LocalPlayer Name: 'Robloxianf2d3s6y8l'
+[2026-01-01 22:17:01.423] [RBXClient] [trace] [Robloxianf2d3s6y8l (8652)]: Attaching in-game using translation module.
+[2026-01-01 22:17:01.424] [RBXClient] [debug] [Robloxianf2d3s6y8l (8652)]: EventConnection: 0x1a2cabc4bc0, SharedString: 0x1a2ceb0d080
+[2026-01-01 22:17:01.758] [RBXClient] [trace] [Robloxianf2d3s6y8l (8652)]: Intercepted translation module @0x1a2cabc7b00
+[2026-01-01 22:17:02.015] [RBXClient] [trace] [Robloxianf2d3s6y8l (8652)]: Attach ping received from client "Robloxianf2d3s6y8l", This indicates everything was successful.
+[2026-01-01 22:18:37.123] [Xeno] [info] Removed RBXClient: 8652
+[2026-01-01 22:18:42.132] [Xeno] [info] Cleaned up '8652' from InitializedClients
+[2026-01-01 22:19:13.390] [Xeno] [info] Creating new RBXClient: 11732
+[2026-01-01 22:19:13.390] [RBXClient] [info] [11732]: Initializing...
+[2026-01-01 22:19:13.390] [RBXClient] [info] [11732]: Version: version-f8f53a67efca4c34
+[2026-01-01 22:19:13.390] [Xeno] [debug] Created RBXClient instance @0x178d9b82db0
+[2026-01-01 22:19:13.390] [Xeno] [info] Successfully created RBXClient: 11732
+[2026-01-01 22:19:13.390] [RBXClient] [trace] [11732]: Attempting to retrieve RBXClient data from endpoint...
+[2026-01-01 22:19:13.616] [RBXClient] [trace] [11732]: Successfully retrieved RBXClient data from endpoint using curl.
+[2026-01-01 22:19:13.616] [RBXClient] [debug] [11732]: Fetching DataModel...
+[2026-01-01 22:19:13.653] [RBXClient] [debug] [11732]: 	String: 0x26817b43150
+[2026-01-01 22:19:13.653] [RBXClient] [debug] [11732]: 	RenderView: 0x2681d634000
+[2026-01-01 22:19:13.655] [RBXClient] [debug] [11732]: DataModel (Ugc): 0x26811adb638
+[2026-01-01 22:19:13.657] [RBXClient] [debug] [11732]: LocalPlayer: 0x26814976080
+[2026-01-01 22:19:13.657] [RBXClient] [debug] [Robloxianf2d3s6y8l (11732)]: LocalPlayer Name: 'Robloxianf2d3s6y8l'
+[2026-01-01 22:19:13.658] [RBXClient] [trace] [Robloxianf2d3s6y8l (11732)]: Attaching in-game using translation module.
+[2026-01-01 22:19:13.659] [RBXClient] [debug] [Robloxianf2d3s6y8l (11732)]: EventConnection: 0x26818444bc0, SharedString: 0x2681ca6e6c0
+[2026-01-01 22:19:13.875] [RBXClient] [trace] [Robloxianf2d3s6y8l (11732)]: Intercepted translation module @0x26818447b00
+[2026-01-01 22:19:14.099] [RBXClient] [trace] [Robloxianf2d3s6y8l (11732)]: Attach ping received from client "Robloxianf2d3s6y8l", This indicates everything was successful.
+[2026-01-01 22:19:17.546] [Execution] [warning] [11732]: Could not verify that the execution module has changed. Script may not be executed!
+[2026-01-01 22:21:02.526] [Xeno] [info] Removed RBXClient: 11732
+[2026-01-01 22:21:07.538] [Xeno] [info] Cleaned up '11732' from InitializedClients

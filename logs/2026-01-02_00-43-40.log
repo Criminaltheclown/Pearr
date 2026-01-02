@@ -1,0 +1,28 @@
+[2026-01-02 00:43:40.590] [Xeno] [trace] Xeno is only maintained by Rizve. If you find any bugs, have any question, or just want to chat email me rizve@xeno.onl or DM me on Discord: .rizve
+[2026-01-02 00:43:40.590] [Xeno] [info] Version: Xeno - v1.3.10
+[2026-01-02 00:43:40.595] [Xeno] [info] Log file: C:\Users\Criminal\Desktop\Pear\Pear\bin\Release\net10.0-windows\logs\2026-01-02_00-43-40.log
+[2026-01-02 00:43:40.599] [Xeno] [debug] Client Checker thread: 0x64fb97cec0
+[2026-01-02 00:43:40.599] [Xeno] [debug] Xeno Caching thread: 0x64fb97ceb0
+[2026-01-02 00:43:40.599] [Xeno] [debug] WebSockets Cleaner thread: 0x64fb97cea0
+[2026-01-02 00:43:40.599] [Cache] [info] Caching file: C:\Users\Criminal\AppData\Local\Xeno\XENO_CACHE.bin
+[2026-01-02 00:43:40.599] [Xeno] [debug] Xeno Server thread: 0x64fb97ce90
+[2026-01-02 00:43:40.600] [Server] [info] Xeno Server is Live on http://localhost:3110
+[2026-01-02 00:43:40.600] [Server] [info] Visit http://localhost:3110 to view any additional information
+[2026-01-02 00:43:40.628] [Xeno] [info] Creating new RBXClient: 28664
+[2026-01-02 00:43:40.628] [RBXClient] [info] [28664]: Initializing...
+[2026-01-02 00:43:40.628] [RBXClient] [info] [28664]: Version: version-f8f53a67efca4c34
+[2026-01-02 00:43:40.628] [Xeno] [debug] Created RBXClient instance @0x22267bc2280
+[2026-01-02 00:43:40.628] [Xeno] [info] Successfully created RBXClient: 28664
+[2026-01-02 00:43:40.629] [RBXClient] [trace] [28664]: Attempting to retrieve RBXClient data from endpoint...
+[2026-01-02 00:43:40.825] [RBXClient] [trace] [28664]: Successfully retrieved RBXClient data from endpoint using curl.
+[2026-01-02 00:43:40.831] [RBXClient] [debug] [28664]: Fetching DataModel...
+[2026-01-02 00:43:40.897] [RBXClient] [debug] [28664]: 	String: 0x1c1b2853650
+[2026-01-02 00:43:40.897] [RBXClient] [debug] [28664]: 	RenderView: 0x1c1b8a44000
+[2026-01-02 00:43:40.898] [RBXClient] [debug] [28664]: DataModel (Ugc): 0x1c1aae4b638
+[2026-01-02 00:43:40.900] [RBXClient] [debug] [28664]: LocalPlayer: 0x1c1b4c09080
+[2026-01-02 00:43:40.900] [RBXClient] [debug] [Robloxianf2d3s6y8l (28664)]: LocalPlayer Name: 'Robloxianf2d3s6y8l'
+[2026-01-02 00:43:40.901] [RBXClient] [trace] [Robloxianf2d3s6y8l (28664)]: Attaching in-game using translation module.
+[2026-01-02 00:43:40.902] [RBXClient] [debug] [Robloxianf2d3s6y8l (28664)]: EventConnection: 0x1c1b2a34bc0, SharedString: 0x1c1b5dce7c0
+[2026-01-02 00:43:41.301] [RBXClient] [trace] [Robloxianf2d3s6y8l (28664)]: Intercepted translation module @0x1c1b2a37b00
+[2026-01-02 00:43:41.549] [RBXClient] [trace] [Robloxianf2d3s6y8l (28664)]: Attach ping received from client "Robloxianf2d3s6y8l", This indicates everything was successful.
+[2026-01-02 00:43:44.846] [Execution] [warning] [28664]: Could not verify that the execution module has changed. Script may not be executed!
